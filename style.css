@@ -49,7 +49,7 @@ header{
 }
 
 main{
-    height: calc(100% - 7% - 10%);
+    height: calc(100% - 5% - 10%);
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -62,11 +62,6 @@ main{
     border: 3px solid black;
     position: relative;
 
-}
-
-footer{
-    height: 10%;
-    background-color: #222222;
 }
 
 .overlay{
@@ -88,4 +83,70 @@ footer{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+footer{
+    height: 10%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mic-cam{
+    width: 12%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.main-settings{
+    width: 45%;
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.exit-button{
+    width: 12%;
+    height: 75px;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-microphone{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.fa-video{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.setting{
+    text-align: center;
+}
+
+.icon{
+    font-size: 25px;   
+}
+
+.action{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.fa-share-from-square{
+    color: rgb(58, 225, 58);
+}
+
+.end{
+    font-weight: bold;
+    color: red;
 }
