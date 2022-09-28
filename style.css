@@ -14,14 +14,43 @@ html{
 }
 
 header{
-    height: 7%;
-    background-color: green;
+    height: 5%;
+    color: white;
+    position: relative;
+}
+
+.header-settings{
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    font-size: 14px;
+}
+
+.view-options{
+    background-color: #4a4a4a;
+    padding: 3px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.view-options:hover{
+    cursor: pointer;
+}
+
+.dimention-icon{
+    background-color: #4a4a4a;
+    padding: 3px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.dimention-icon:hover{
+    cursor: pointer;
 }
 
 main{
     height: calc(100% - 7% - 10%);
-    background-color: red;
-    padding: 15px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -37,12 +66,12 @@ main{
 
 footer{
     height: 10%;
-    background-color: grey;
+    background-color: #222222;
 }
 
 .overlay{
     width: 50%;
-    height: 30px;
+    height: 25px;
     background-color: black;
     opacity: 0.4;
     position: absolute;
