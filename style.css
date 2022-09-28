@@ -101,6 +101,14 @@ footer{
     color: white;
 }
 
+.mic:hover{
+    cursor: pointer;
+}
+
+.cam:hover{
+    cursor: pointer;
+}
+
 .main-settings{
     width: 45%;
     height: 75px;
@@ -110,6 +118,10 @@ footer{
     align-items: center;
 }
 
+.setting{
+    cursor: pointer;
+}
+
 .exit-button{
     width: 12%;
     height: 75px;
@@ -117,6 +129,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.exit-button:hover{
+    cursor: pointer;
 }
 
 .fa-microphone{
